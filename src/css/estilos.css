@@ -11,7 +11,7 @@ main::after {
     min-height: 100vh;
     min-width: 80vh;
 
-    background: linear-gradient(92deg, #000 25%, rgba(0, 0, 0, 0) 75%) no-repeat;
+    /* background: linear-gradient(5deg, #000 25%, rgba(0, 0, 0, 0) 55%) no-repeat; */
 }
 
 main .personagem {
@@ -39,23 +39,23 @@ main .personagem .imagem {
     justify-content: center;
     /* align-items: center; */
     height: 100vh;
-    max-width: 400px;
+    max-width: 500px;
     z-index: 1;
 }
 
 .conteudo .nome-personagem {
     color: #ffffff;
-    font-size: 48px;
-    font-family: "Orbitron";
-    font-weight: 500;
-    margin-bottom: 20px;
+    font-size: 45px;
+    font-family: "Rubik Glitch";
+    font-weight: 400;
+    margin-bottom: 25px;
 }
 
 .conteudo .descricao {
     color: #ffffff;
-    font-size: 16px;
-    font-family: "Audiowide";
-    line-height: 24px;
+    font-size: 18px;
+    font-family: "Mystery Quest";
+    line-height: 26px;
 }
 
 .botoes {
@@ -87,27 +87,32 @@ main .personagem .imagem {
     border-radius: 50%;
 }
 
+.botoes .botao.recortar img {
+    width: 90px;
+    height: 90px;
+}
+
 .botoes .botao.selecionado {
     transform: scale(1.2);
     box-shadow: 0 0 10px #d9d9d9;
 }
 
-.botoes .botao.cyberstorm.selecionado {
-    box-shadow: 0 0 10px #47ffc5;
+.botoes .botao.morte.selecionado {
+    box-shadow: 0 0 10px #00000008;
 }
 
-.botoes .botao.codepixie.selecionado {
-    box-shadow: 0 0 10px #9747ff;
+.botoes .botao.sangue.selecionado {
+    box-shadow: 0 0 10px #f42e23e9;
 }
 
-.botoes .botao.hexblade.selecionado {
-    box-shadow: 0 0 10px #ffa947;
+.botoes .botao.conhecimento.selecionado {
+    box-shadow: 0 0 10px #ebdb26;
 }
 
-.botoes .botao.neonpulse.selecionado {
-    box-shadow: 0 0 10px #e4309a;
+.botoes .botao.energia.selecionado {
+    box-shadow: 0 0 10px #b930f9;
 }
 
-.botoes .botao.codebreaker.selecionado {
-    box-shadow: 0 0 10px #fff047;
+.botoes .botao.medo.selecionado {
+    box-shadow: 0 0 10px #e0e0e0;
 }
