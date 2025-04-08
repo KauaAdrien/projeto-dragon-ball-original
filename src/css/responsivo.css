@@ -1,7 +1,7 @@
 @media (max-width: 768px){
 
     main::after {
-        /* background: linear-gradient(0deg, #000 25%, rgba(0, 0, 0, 0.00) 60%) no-repeat; */
+        background: linear-gradient(0deg, #000 25%, rgba(0, 0, 0, 0.00) 60%) no-repeat;
         width: 100vw;
     }
 
@@ -15,7 +15,7 @@
         margin-top: 20px;
     }
 
-    main .personagem .imagem.recorte1 {
+    main .personagem .imagem.altura {
         margin-top: -15%;
     }
 
@@ -32,7 +32,7 @@
     }
 
     .conteudo .descricao {
-        max-width: 500px;
+        max-width: 450px;
     }
 
     .botoes {
@@ -62,8 +62,16 @@
         object-position: center;
     }
 
+    main .personagem .imagem.recorte {
+        margin-top: -25px;
+    }
+
+    main .personagem .imagem.altura {
+        transform: translateY(-20px);
+    }
+
     .conteudo {
-        top: -15%;
+        top: -14%;
         padding: 20px;
     }
 

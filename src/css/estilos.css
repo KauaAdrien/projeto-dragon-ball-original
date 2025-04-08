@@ -39,7 +39,7 @@ main .personagem .imagem {
     justify-content: center;
     /* align-items: center; */
     height: 100vh;
-    max-width: 500px;
+    max-width: 450px;
     z-index: 1;
 }
 
