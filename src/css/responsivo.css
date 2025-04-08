@@ -36,6 +36,7 @@
     }
 
     .botoes {
+        background-color: rgba(0, 0, 0, 0.1);
         flex-direction: row;
         align-items: flex-end;
         width: 100%;
