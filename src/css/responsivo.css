@@ -71,17 +71,18 @@
     }
 
     .conteudo {
-        top: -14%;
-        padding: 20px;
+        top: -18%;
+        padding: 15px;
     }
 
-    /* .conteudo .nome-personagem {
-        font-size: 30px;
-    } */
+    .conteudo .nome-personagem {
+        margin-bottom: 20px;
+    }
 
     .botoes {
-        padding: 20px;
+        padding: 50px;
         top: -5%;
+        gap: 20px;
     }
 
     .botoes .botao {
